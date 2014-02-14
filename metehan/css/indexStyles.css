@@ -1,0 +1,22 @@
+﻿.name{
+    color:whitesmoke;
+    text-align:center;
+
+    font-family:'Monotype Corsiva';
+    font-size:40px;
+
+}
+.h1{
+    color:darkorange;
+    font-family:'Myra 4F Caps';
+    font-size:40px;
+}
+
+@font-face {
+    font-family: 'Myra 4F Caps';
+    src: url("../fonts/Myra.otf");
+}
+.h5{
+    color:deepskyblue;
+    font-family:'Bookman Old Style';
+}
