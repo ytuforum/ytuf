@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="css/signin.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/offcanvas.css">
+	</head>
+	<body background="Images/entry_background.png">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">YTUF</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="E-mail address" required="" autofocus="">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password" required="">
+                        </div>
+                        <button type="button" class="btn btn-success" onclick="login()">Sign In</button>
+                        <a href="register.html">Sign Up</a>
+                    </form>
+                </div>
+            </div>
+   		</div>
+		<div class="container">
+			<form class="form-signin" role="form">
+				<h2 class="form-signin-heading">Please fill the form</h2>
+				<input type="text" class="form-control" placeholder="Nickname" required="">
+				<br>
+				<input type="text" class="form-control" placeholder="Name Surname" required="">
+				<br>
+				<input type="email" class="form-control" placeholder="E-mail address" required="" autofocus="">
+				<br>
+				<input type="password" class="form-control" placeholder="Password" required="">
+				<br>
+				<button class="btn btn-lg btn-primary btn-block" type="submit" onclick="register()">Register</button>
+			</form>
+		</div>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+	</body>
+</html>
